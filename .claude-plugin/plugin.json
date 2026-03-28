@@ -1,9 +1,0 @@
-{
-  "name": "tax-skills",
-  "version": "1.0.0",
-  "description": "Tax filing skills for Non-Resident Aliens (NRAs) — interactive checklists, treaty references, and state-specific guidance for 1040-NR filers.",
-  "author": {
-    "name": "Debanjan Mondal"
-  },
-  "keywords": ["tax", "nra", "1040-NR", "f-1", "sprintax", "treaty", "international-student"]
-}
