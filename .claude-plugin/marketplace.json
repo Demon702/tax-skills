@@ -7,6 +7,8 @@
     "description": "Tax filing skills for Non-Resident Aliens (NRAs) — interactive checklists, treaty references, and state-specific guidance for 1040-NR filers.",
     "version": "1.0.0"
   },
+  "repository": "https://github.com/Demon702/tax-skills",
+  "license": "MIT",
   "plugins": [
     {
       "name": "tax-skills",

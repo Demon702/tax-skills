@@ -2,7 +2,7 @@
 
 This reference covers the most common treaty benefits available to NRA students and trainees (F-1/J-1 visa holders). All treaty benefits require filing **Form 8833** (Treaty-Based Return Position Disclosure).
 
-**Last verified:** Tax year 2025 (filing in 2026). Treaty provisions can change — verify current status at irs.gov/individuals/international-taxpayers/tax-treaties.
+**Last verified: Tax year 2025 (filing in 2026). Updated March 2026.** Treaty provisions can change — verify current status at irs.gov/individuals/international-taxpayers/tax-treaties.
 
 ---
 
@@ -10,7 +10,7 @@ This reference covers the most common treaty benefits available to NRA students 
 
 | Country | Treaty Article | Benefit Type | Amount/Rate | Eligible Persons | Form Required | Key Conditions |
 |---------|---------------|-------------|-------------|-----------------|---------------|----------------|
-| **India** | Article 21(2) | Standard deduction | **$15,000** | Students, business apprentices | 8833 | Must be present for education/training. One of the most generous student treaty benefits. |
+| **India** | Article 21(2) | Standard deduction (same as US citizens) | **$15,750 (2025)** | Students, business apprentices | 8833 | Must be present for education/training. One of the most generous student treaty benefits. Amount equals the US standard deduction for Single filers, which adjusts annually with inflation/legislation. The One Big Beautiful Bill Act (2025) increased it to $15,750 for 2025-2028. |
 | **China** | Article 20(c) | Income exemption | **$5,000** | Students, business apprentices | 8833 | Exempts first $5,000 of income from employment necessary for maintenance. |
 | **South Korea** | Article 21(1) | Income exemption | **$2,000** | Students, business apprentices | 8833 | Exempts first $2,000 of income from personal services. |
 | **Germany** | Article 20(4) | Income exemption | **$9,000** | Students, business apprentices | 8833 | Exempts income from personal services up to $9,000 per year. |
@@ -32,6 +32,9 @@ This reference covers the most common treaty benefits available to NRA students 
 | **Nigeria** | None | N/A | N/A | N/A | N/A | **No US tax treaty exists** with Nigeria. No treaty benefits available. |
 | **Nepal** | None | N/A | N/A | N/A | N/A | **No US tax treaty exists** with Nepal. No treaty benefits available. |
 | **Sri Lanka** | Article 21 | Income exemption | **$5,000** | Students | 8833 | Exempts first $5,000 of compensation for personal services. |
+| **Russia** | Article 20 | Income exemption | **Suspended** | Students | 8833 | **Treaty Articles 5-21 and 23 suspended effective August 16, 2024.** Russian students can no longer claim treaty benefits. Verify current status at irs.gov. |
+| **Hungary** | None | N/A | N/A | N/A | N/A | **Treaty terminated effective January 1, 2024.** Hungarian nationals no longer have treaty benefits. |
+| **Chile** | Article 21 | Income exemption | **$10,000** | Students | 8833 | New treaty entered into force 2024. Exempts first $10,000 of compensation for personal services. |
 
 ---
 
@@ -51,7 +54,7 @@ This reference covers the most common treaty benefits available to NRA students 
 
 ### Cumulative Time Limits
 - Some treaties limit benefits to a specific number of years or months of US presence (cumulative across all years, not just the current year).
-- **India:** Article 21 benefits are available as long as you remain a student or trainee. Once on OPT (post-completion), you may still qualify if you were a student at any point.
+- **India:** Article 21 benefits ($15,750 (2025)) are available as long as you remain a student or trainee. Once on OPT (post-completion), you may still qualify if you were a student at any point.
 - **China:** Article 20(c) benefits generally available for up to 5 years.
 - Track your treaty months/years across tax years. Sprintax asks about prior treaty claims to help with this.
 
@@ -70,7 +73,7 @@ This reference covers the most common treaty benefits available to NRA students 
 | China | 10% | 10% | Significantly reduced |
 | South Korea | 15% | 12% | |
 | Germany | 15% | 0% | Interest fully exempt under treaty |
-| Canada | 15% | 10% | |
+| Canada | 15% | 0% | Interest generally exempt under treaty |
 | UK | 15% | 0% | Interest fully exempt under treaty |
 | Japan | 10% | 10% | |
 | France | 15% | 0% | Interest fully exempt under treaty |

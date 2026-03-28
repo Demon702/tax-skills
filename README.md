@@ -105,7 +105,7 @@ Walks you through a personalized questionnaire covering your visa status, employ
 
 - Tax status summary (NRA basis, FICA exemption, treaty eligibility)
 - Required documents table with deadlines and how-to-obtain steps
-- Treaty benefit identification (e.g. India's $15,000 deduction under Article 21(2))
+- Treaty benefit identification (e.g. India's $15,750 deduction under Article 21(2))
 - Platform-by-platform collection guide (Workday, Schwab Equity Awards, Robinhood, Fidelity, Marcus, etc.)
 - Complete list of IRS and state forms to file (1040-NR, 8843, 8833, CA 540NR, etc.)
 - Key NRA tax rules for your specific situation

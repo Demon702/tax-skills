@@ -16,9 +16,9 @@ If you only lived and worked in one of these states, you do NOT need to file a s
 | **South Dakota** | No state income tax |
 | **Tennessee** | No state income tax (eliminated interest/dividend tax in 2021) |
 | **Texas** | No state income tax |
-| **Washington** | No state income tax (but has a 7% capital gains tax on gains >$270,000) |
+| **Washington** | No state income tax (but has a capital gains tax on gains >$278,000 (2025, inflation-adjusted annually)). A tiered rate applies: 7% on the first $1M of taxable gains, plus 2.9% on gains exceeding $1M (total 9.9%). |
 | **Wyoming** | No state income tax |
-| **New Hampshire** | No tax on wages. Taxes interest and dividends only (being phased out — fully eliminated for tax year 2025+) |
+| **New Hampshire** | No state income tax (interest/dividend tax fully eliminated as of 2025) |
 
 ---
 
@@ -120,8 +120,58 @@ If you only lived and worked in one of these states, you do NOT need to file a s
 **Filing tool:** Sprintax handles GA returns
 
 ### Key Rules
-- **Progressive tax rates:** Up to 5.39% (reduced from 5.75% for 2025).
+- **Progressive tax rates:** Up to 5.19% (reduced from 5.39% effective July 2025).
 - **Does NOT honor most treaty provisions.**
+
+---
+
+## Virginia
+
+**Form to file:** VA 763 (Non-Resident Income Tax Return)
+**Filing tool:** Sprintax handles VA returns
+
+### Key Rules
+- **Does NOT honor treaty provisions.**
+- **Progressive tax rates:** Up to 5.75%.
+- **VA Department of Taxation:** tax.virginia.gov
+- **Reciprocity:** Virginia has reciprocity agreements with DC, Maryland, Kentucky, Pennsylvania, and West Virginia — if you live in VA but work in one of these states (or vice versa), you may only need to file in your state of residence.
+
+---
+
+## Maryland
+
+**Form to file:** MD 505 (Non-Resident Income Tax Return)
+**Filing tool:** Sprintax handles MD returns
+
+### Key Rules
+- **Does NOT honor treaty provisions.**
+- **Progressive tax rates:** Up to 5.75% state + local county tax (up to 3.2%).
+- **MD Comptroller:** marylandtaxes.gov
+- **Reciprocity:** Maryland has reciprocity with DC, Virginia, Pennsylvania, and West Virginia.
+
+---
+
+## Michigan
+
+**Form to file:** MI-1040 (with Schedule NR for non-residents)
+**Filing tool:** Sprintax handles MI returns
+
+### Key Rules
+- **Flat tax rate:** 4.25%.
+- **Does NOT honor most treaty provisions.**
+- **MI Department of Treasury:** michigan.gov/taxes
+
+---
+
+## North Carolina
+
+**Form to file:** NC D-400 (with Schedule NC-NR for non-residents)
+**Filing tool:** Sprintax handles NC returns
+
+### Key Rules
+- **Flat tax rate:** 4.5% (2025).
+- **Does NOT honor treaty provisions.**
+- **NC Department of Revenue:** ncdor.gov
 
 ---
 
