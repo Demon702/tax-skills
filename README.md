@@ -1,6 +1,6 @@
 # tax-skills
 
-A Claude Code plugin providing an interactive NRA tax document checklist for non-resident aliens filing US taxes.
+An interactive NRA tax document checklist skill for non-resident aliens filing US taxes. Designed as a **Claude Code plugin** (recommended), but can also be used directly with any Claude agent by copying the skill content into your conversation.
 
 ---
 
@@ -43,36 +43,80 @@ Use the generated checklist to collect all your documents, then file your return
 
 ---
 
-## Setup
+## Using With Claude Code (Recommended)
 
-**Prerequisites:** [Claude Code](https://claude.ai/code) installed.
+Claude Code is the recommended way to use this skill — it handles plugin installation, skill invocation, and memory across sessions automatically.
 
-**1. Add this repo as a marketplace:**
+### Step 1 — Install Claude Code
+
+**macOS / Linux:**
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+**macOS (Homebrew):**
+```bash
+brew install --cask claude-code
+```
+
+**Windows (PowerShell):**
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
+
+**Windows (WinGet):**
+```powershell
+winget install Anthropic.ClaudeCode
+```
+
+Requires a [Claude Pro, Max, Teams, or Enterprise](https://claude.com/pricing) account, or API credentials from [console.anthropic.com](https://console.anthropic.com).
+
+### Step 2 — Start Claude Code and log in
+
+```bash
+claude
+```
+
+Your browser will open for authentication. Once logged in, credentials are stored and you won't need to log in again.
+
+### Step 3 — Add this repo as a plugin marketplace
+
 ```
 /plugin marketplace add Demon702/tax-skills
 ```
 
-**2. Install the plugin:**
+### Step 4 — Install the plugin
+
 ```
 /plugin install tax-skills@Demon702-tax-skills
 ```
 
-**3. Reload plugins:**
+### Step 5 — Reload plugins
+
 ```
 /reload-plugins
 ```
 
----
-
-## Usage
-
-Once installed, invoke the skill in any Claude Code session:
+### Step 6 — Run the skill
 
 ```
 /tax-skills:nra-tax-checklist
 ```
 
 Claude will ask questions one at a time and generate a personalized tax document checklist at the end.
+
+---
+
+## Using With Other Claude Agents
+
+This skill can also be used with any Claude-powered tool — including [Claude.ai](https://claude.ai), the Claude mobile app, or any agent built on the Anthropic API — without installing Claude Code.
+
+**To use manually:**
+1. Open `skills/nra-tax-checklist/SKILL.md` from this repo
+2. Copy the full contents
+3. Paste it into your Claude conversation as the first message, then ask Claude to begin the questionnaire
+
+Claude Code is still recommended because it handles skill invocation and session context automatically — but the skill works anywhere Claude is available.
 
 ---
 
