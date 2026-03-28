@@ -120,11 +120,30 @@ Claude Code is still recommended because it handles skill invocation and session
 
 ---
 
-## Skills Included
+## Skills
 
-| Skill | Command | Description |
-|-------|---------|-------------|
-| NRA Tax Document Checklist | `/tax-skills:nra-tax-checklist` | Interactive questionnaire that generates a personalized list of required tax documents, filing forms, and platform-specific collection instructions for NRA filers |
+### `nra-tax-checklist` — NRA Tax Document Checklist
+
+**Command:** `/tax-skills:nra-tax-checklist`
+
+An interactive questionnaire that walks Non-Resident Aliens through their tax situation and generates a fully personalized document checklist.
+
+**What it covers:**
+- Visa type and NRA status determination
+- Employment, RSUs, ESPP, and stock sales
+- Personal brokerage accounts and dividends
+- Bank interest, HSA, and retirement accounts
+- Tax treaty benefits by country
+- State-specific filing rules
+
+**Output includes:**
+- Tax status summary (NRA basis, FICA exemption, treaty eligibility)
+- Required documents table with deadlines and how-to-obtain steps
+- Platform-by-platform collection guide (Workday, Schwab Equity Awards, Robinhood, Fidelity, Marcus, etc.)
+- Complete list of IRS and state forms to file
+- Key NRA tax rules for your specific situation
+
+**Supported filing tools:** Sprintax (recommended), Glacier Tax Prep
 
 ---
 
