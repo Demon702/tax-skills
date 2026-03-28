@@ -1,51 +1,12 @@
 # tax-skills
 
-An interactive NRA tax document checklist skill for non-resident aliens filing US taxes. Designed as a **Claude Code plugin** (recommended), but can also be used directly with any Claude agent by copying the skill content into your conversation.
-
----
-
-## Who This Is For
-
-This plugin is for **Non-Resident Aliens (NRAs)** — including F-1, J-1, H-1B, L-1, O-1, and TN visa holders — who need to file US taxes on **Form 1040-NR**.
-
-This is **NOT** for:
-- US citizens or lawful permanent residents (green card holders)
-- Resident Aliens who pass the Substantial Presence Test
-- Anyone who should be filing Form 1040 (use TurboTax, H&R Block, or FreeTaxUSA instead)
-
----
-
-## Purpose
-
-The `nra-tax-checklist` skill walks you through a personalized questionnaire covering your visa status, employment, income sources, stock compensation, brokerage accounts, HSA, and more. Based on your answers, it generates a **tailored document checklist** with exact step-by-step instructions for obtaining every form you need.
-
----
-
-## What the Skill Provides
-
-- **Tax status determination** — confirms NRA vs Resident Alien status and FICA exemption eligibility
-- **Treaty benefit identification** — detects applicable tax treaties (e.g. India's $15,000 standard deduction under Article 21(2)) and notes required forms
-- **Required documents table** — every form you need, with deadlines, sources, and NRA-specific notes
-- **Platform-by-platform collection guide** — exact login URLs and navigation paths for Workday, Schwab Equity Awards, Robinhood, Fidelity, Marcus, and more
-- **Forms to file** — complete list of IRS and state forms for your return (1040-NR, 8843, 8833, CA 540NR, etc.)
-- **Key NRA tax rules** — covering capital gains, ESPP, RSUs, dividends, bank interest exemptions, and FBAR
-
----
-
-## After Using the Skill
-
-Use the generated checklist to collect all your documents, then file your return using:
-
-- **[Sprintax](https://www.sprintax.com)** *(primary recommendation)* — supports Form 1040-NR, state returns, treaty benefits (Form 8833), and HSA handling
-- **[Glacier Tax Prep](https://www.glaciertax.com)** — good alternative, often provided free by universities
-
-**Do NOT use TurboTax, H&R Block, or FreeTaxUSA** — they do not support Form 1040-NR and will result in filing the wrong form.
+A collection of tax filing skills for Claude Code. Designed as a **Claude Code plugin** (recommended), but can also be used directly with any Claude agent by copying the skill content into your conversation.
 
 ---
 
 ## Using With Claude Code (Recommended)
 
-Claude Code is the recommended way to use this skill — it handles plugin installation, skill invocation, and memory across sessions automatically.
+Claude Code is the recommended way to use these skills — it handles plugin installation, skill invocation, and memory across sessions automatically.
 
 ### Step 1 — Install Claude Code
 
@@ -97,26 +58,18 @@ Your browser will open for authentication. Once logged in, credentials are store
 /reload-plugins
 ```
 
-### Step 6 — Run the skill
-
-```
-/tax-skills:nra-tax-checklist
-```
-
-Claude will ask questions one at a time and generate a personalized tax document checklist at the end.
-
 ---
 
 ## Using With Other Claude Agents
 
-This skill can also be used with any Claude-powered tool — including [Claude.ai](https://claude.ai), the Claude mobile app, or any agent built on the Anthropic API — without installing Claude Code.
+These skills can also be used with any Claude-powered tool — including [Claude.ai](https://claude.ai), the Claude mobile app, or any agent built on the Anthropic API — without installing Claude Code.
 
 **To use manually:**
-1. Open `skills/nra-tax-checklist/SKILL.md` from this repo
+1. Open the skill's `SKILL.md` file from this repo (e.g. `skills/nra-tax-checklist/SKILL.md`)
 2. Copy the full contents
-3. Paste it into your Claude conversation as the first message, then ask Claude to begin the questionnaire
+3. Paste it into your Claude conversation as the first message, then ask Claude to begin
 
-Claude Code is still recommended because it handles skill invocation and session context automatically — but the skill works anywhere Claude is available.
+Claude Code is still recommended because it handles skill invocation and session context automatically — but the skills work anywhere Claude is available.
 
 ---
 
@@ -126,9 +79,21 @@ Claude Code is still recommended because it handles skill invocation and session
 
 **Command:** `/tax-skills:nra-tax-checklist`
 
-An interactive questionnaire that walks Non-Resident Aliens through their tax situation and generates a fully personalized document checklist.
+#### Who this is for
 
-**What it covers:**
+**Non-Resident Aliens (NRAs)** — including F-1, J-1, H-1B, L-1, O-1, and TN visa holders — who need to file US taxes on Form 1040-NR.
+
+This is **NOT** for:
+- US citizens or lawful permanent residents (green card holders)
+- Resident Aliens who pass the Substantial Presence Test
+- Anyone who should be filing Form 1040 (use TurboTax, H&R Block, or FreeTaxUSA instead)
+
+#### What it does
+
+Walks you through a personalized questionnaire covering your visa status, employment, income sources, stock compensation, brokerage accounts, HSA, and more. Based on your answers, it generates a **tailored document checklist** with exact step-by-step instructions for obtaining every form you need.
+
+#### What it covers
+
 - Visa type and NRA status determination
 - Employment, RSUs, ESPP, and stock sales
 - Personal brokerage accounts and dividends
@@ -136,14 +101,23 @@ An interactive questionnaire that walks Non-Resident Aliens through their tax si
 - Tax treaty benefits by country
 - State-specific filing rules
 
-**Output includes:**
+#### Output includes
+
 - Tax status summary (NRA basis, FICA exemption, treaty eligibility)
 - Required documents table with deadlines and how-to-obtain steps
+- Treaty benefit identification (e.g. India's $15,000 deduction under Article 21(2))
 - Platform-by-platform collection guide (Workday, Schwab Equity Awards, Robinhood, Fidelity, Marcus, etc.)
-- Complete list of IRS and state forms to file
+- Complete list of IRS and state forms to file (1040-NR, 8843, 8833, CA 540NR, etc.)
 - Key NRA tax rules for your specific situation
 
-**Supported filing tools:** Sprintax (recommended), Glacier Tax Prep
+#### After using the skill
+
+Use the generated checklist to collect all your documents, then file your return using:
+
+- **[Sprintax](https://www.sprintax.com)** *(primary recommendation)* — supports Form 1040-NR, state returns, treaty benefits (Form 8833), and HSA handling
+- **[Glacier Tax Prep](https://www.glaciertax.com)** — good alternative, often provided free by universities
+
+**Do NOT use TurboTax, H&R Block, or FreeTaxUSA** — they do not support Form 1040-NR and will result in filing the wrong form.
 
 ---
 
