@@ -1,0 +1,21 @@
+{
+  "name": "tax-skills",
+  "owner": {
+    "name": "Debanjan Mondal"
+  },
+  "metadata": {
+    "description": "Tax filing skills for Non-Resident Aliens (NRAs) — interactive checklists, treaty references, and state-specific guidance for 1040-NR filers.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tax-skills",
+      "description": "NRA tax checklist and guidance for 1040-NR filers",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/nra-tax-checklist"
+      ]
+    }
+  ]
+}
